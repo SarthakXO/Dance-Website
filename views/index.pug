@@ -1,0 +1,83 @@
+doctype html
+html
+  head
+    title Dance Academy Website
+    style
+      include ../public/style.css
+  body
+    
+    nav#navbar
+        
+        ul
+            img(src='/public/images/d2.png')
+            li #[a(href='/') HOME] 
+            li #[a(href='/') ABOUT]
+            li #[a(href='/') SERVICES]
+            li #[a(href='/') CLASS INFO]
+            li #[a(href='/') CONTACT US] 
+
+    section#introSection
+        div Welcome to the Dance Academy
+        div.small The finest academy in the nation
+
+
+
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+            h3 Practice
+            div.card-box
+                div.card-Img
+                    img(src='/public/images/d1.png')
+            div.card-Content
+                p Practice at one of the best academies
+
+        div.card 
+            h3 Perfect
+            div.card-box
+                div.card-Img
+                    img(src='/public/images/d4.png')
+            div.card-Content
+                p Perfect your art and craft your style
+
+
+        div.card 
+            h3 Perform
+            div.card-box
+                div.card-Img
+                    img(src='/public/images/d2.png')
+            div.card-Content
+                p Perform for the world to see
+
+
+
+    section#sponsorSection 
+        h3 Our Sponsors
+
+
+
+    footer#footer 
+        
+        div.footer-card#left-Footer
+            |Copyright © 2022 Sarthak Bhatt | All rights reserved
+
+
+        div.footer-card#center-Footer
+            ul
+                li Balet
+                li Hip-Hop 
+                li Contemporary 
+                li Traditional
+
+        div.footer-card#right-Footer
+            ul 
+                
+                li #[a(href='/') HOME] 
+                li #[a(href='/') ABOUT]
+                li #[a(href='/') SERVICES]
+                li #[a(href='/') CLASS INFO]
+                li #[a(href='/') CONTACT US] 
+
+
+    script
+      include ../public/index.js

@@ -1,0 +1,22 @@
+extends base.pug
+
+block scripts 
+    script(src='../public/index.js')
+
+block style 
+    style
+        include ../public/style.css
+
+block content
+    section#introSection2
+        div.contact-Div Contact Us
+     
+        
+        div.form-div
+            
+            input(type="text" name='name' placeholder='NAME') 
+            input(type="number" name='age' placeholder='AGE')
+            input(type="text" name='more' placeholder='WHAT DO YOU WANT TO LEARN')
+            input(type="text" name='mobile' placeholder='PHONE NUMBER')
+            input(type="email" name='email' placeholder='EMAIL')
+            button SUBMIT 

@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+    title Dance Academy
+    block scripts
+    block style
+      
+  body
+    nav#navbar
+        
+        ul
+            img(src='/public/images/d2.png')
+            li #[a(href='/') HOME] 
+            li #[a(href='http://localhost:2424/about') ABOUT]
+            li #[a(href='/') SERVICES]
+            li #[a(href='/') CLASS INFO]
+            li #[a(href='http://localhost:2424/contact') CONTACT US]
+
+
+
+    block content
+    footer#footer 
+        
+        div.footer-card#left-Footer
+            |Copyright © 2022 Sarthak Bhatt | All rights reserved
+
+
+        div.footer-card#center-Footer
+            ul
+                li Balet
+                li Hip-Hop 
+                li Contemporary 
+                li Traditional
+
+        div.footer-card#right-Footer
+            ul 
+                
+                li #[a(href='/') HOME] 
+                li #[a(href='http://localhost:2424/about') ABOUT]
+                li #[a(href='/') SERVICES]
+                li #[a(href='/') CLASS INFO]
+                li #[a(href='http://localhost:2424/contact') CONTACT US] 
+
+
+    script
+      include ../public/index.js

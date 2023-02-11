@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    script(src='../public/index.js')
+
+block style 
+    style
+        include ../public/style.css
+
+block content 
+
+    section#introSection
+        div Welcome to the Dance Academy
+        div.small The finest academy in the nation
+
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+            h3 Practice
+            div.card-box
+                div.card-Img
+                    img(src='/public/images/d1.png')
+            div.card-Content
+                p Practice at one of the best academies
+
+        div.card 
+            h3 Perfect
+            div.card-box
+                div.card-Img
+                    img(src='/public/images/d4.png')
+            div.card-Content
+                p Perfect your art and craft your style
+
+
+        div.card 
+            h3 Perform
+            div.card-box
+                div.card-Img
+                    img(src='/public/images/d2.png')
+            div.card-Content
+                p Perform for the world to see
+
+
+
+    section#sponsorSection 
+        h3 Our Sponsors  
